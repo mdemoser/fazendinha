@@ -1,0 +1,92 @@
+/* Importando a fonte arredondada estilo balão */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+
+body {
+  background-image: linear-gradient(rgba(240, 240, 240, 0.7), rgba(240, 240, 240, 0.7)), url("/img/clker-free-vector-images-penguin-42936_1920.png");
+  background-size: contain;
+  background-position: center 150px;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0 20px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+.container-arco {
+  width: 100%;
+  max-width: 1100px; 
+  margin: 0 auto; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+  overflow: visible; 
+}
+
+text {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 58px; 
+  font-weight: 700;
+  paint-order: stroke fill; 
+}
+
+.varal {
+  text-align: center;
+  margin-top: -220px; 
+}
+
+.varal-img {
+  width: 100%;
+  max-width: 700px; 
+  height: auto;
+}
+
+/* NOVO: Container que coloca os 3 itens lado a lado na horizontal */
+.projetos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Espaço entre as imagens */
+  margin-top: 20px;
+  flex-wrap: wrap; /* Se a tela for muito pequena, eles descem organizados */
+  margin-top: -300px;
+}
+
+/* Estilo comum para os links dos projetos */
+.projeto {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.projeto:hover {
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+/* Tamanhos individuais das imagens */
+.celeiro-img {
+  width: 100%;
+  max-width: 300px; /* Reduzido levemente para caberem 3 lado a lado */
+  height: auto;
+  display: block;
+}
+
+.galinheiro-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+}
+
+.pescador-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+}
