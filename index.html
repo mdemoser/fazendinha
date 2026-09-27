@@ -7,67 +7,71 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container-arco">
-    <svg viewBox="0 0 1200 500" style="overflow: visible;">
-      <defs>
-        <!-- Curva do Título (Colina ∩) -->
-        <path id="curvaTexto" d="M 100,180 Q 600,0 1100,180" fill="transparent" />
-      </defs>
-      
-      <!-- O TÍTULO EM ARCO -->
-      <text>
-        <textPath href="#curvaTexto" startOffset="50%" text-anchor="middle">
-          <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">F</tspan>
-          <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">A</tspan>
-          <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">Z</tspan>
-          <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">E</tspan>
-          <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">N</tspan>
-          <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">D</tspan>
-          <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">I</tspan>
-          <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">N</tspan>
-          <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">H</tspan>
-          <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">A</tspan>
-          
-          <tspan fill="transparent" xml:space="preserve">  </tspan>
-          
-          <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">D</tspan>
-          <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">O</tspan>
-          
-          <tspan fill="transparent" xml:space="preserve">  </tspan>
-          
-          <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">M</tspan>
-          <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">O</tspan>
-          <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">S</tspan>
-          <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">E</tspan>
-          <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">R</tspan>
-        </textPath>
-      </text>
-    </svg>
 
-   <!-- Varal de Bandeirinhas -->
-   <div class="varal">
-      <img src="img/festajunina-removebg-preview.png" alt="Varal" class="varal-img">
+   <!-- Camada do pinguim com o gradiente fosco (fica entre o céu e o conteúdo) -->
+   <div class="fundo-pinguim"></div>
+
+   <div class="container-arco">
+       <svg viewBox="0 0 1200 500" style="overflow: visible;">
+         <defs>
+           <!-- Curva do Título (Colina ∩) -->
+           <path id="curvaTexto" d="M 100,180 Q 600,0 1100,180" fill="transparent" />
+         </defs>
+         
+         <!-- O TÍTULO EM ARCO -->
+         <text>
+           <textPath href="#curvaTexto" startOffset="50%" text-anchor="middle">
+             <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">F</tspan>
+             <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">A</tspan>
+             <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">Z</tspan>
+             <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">E</tspan>
+             <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">N</tspan>
+             <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">D</tspan>
+             <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">I</tspan>
+             <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">N</tspan>
+             <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">H</tspan>
+             <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">A</tspan>
+             
+             <tspan fill="transparent" xml:space="preserve">  </tspan>
+             
+             <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">D</tspan>
+             <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">O</tspan>
+             
+             <tspan fill="transparent" xml:space="preserve">  </tspan>
+             
+             <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">M</tspan>
+             <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">O</tspan>
+             <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">S</tspan>
+             <tspan fill="#6c5ce7" stroke="#2d3436" stroke-width="4">E</tspan>
+             <tspan fill="#00b894" stroke="#2d3436" stroke-width="4">R</tspan>
+           </textPath>
+         </text>
+       </svg>
+
+      <!-- Varal de Bandeirinhas -->
+      <div class="varal">
+         <img src="img/festajunina-removebg-preview.png" alt="Varal" class="varal-img">
+      </div>
+
+      <!-- Container dos 3 links lado a lado -->
+      <div class="projetos-container">
+         
+         <!-- Celeiro -->
+         <a href="http://mdemoser.github.io/tropicalPatisserie" target="_blank" class="projeto">
+             <img src="img/celeiro-removebg-preview.png" alt="Celeiro" class="celeiro-img">   
+         </a>
+         
+         <!-- Galinheiro -->
+         <a href="http://mdemoser.github.io/yourSurvey" target="_blank" class="projeto">
+             <img src="img/galinheiro.png" alt="Pesquisa" class="galinheiro-img">   
+         </a>
+
+         <!-- Toca do Ouriço -->
+         <a href="http://mdemoser.github.io/calcula-data" target="_blank" class="projeto">
+             <img src="img/pescador-removebg-preview.png" alt="Calcula-data" class="pescador-img">   
+         </a>
+
+      </div>
    </div>
-
-   <!-- Container dos 3 links lado a lado -->
-   <div class="projetos-container">
-      
-      <!-- Celeiro -->
-      <a href="http://mdemoser.github.io/tropicalPatisserie" target="_blank" class="projeto">
-          <img src="img/celeiro-removebg-preview.png" alt="Celeiro" class="celeiro-img">   
-      </a>
-      
-      <!-- Galinheiro -->
-      <a href="http://mdemoser.github.io/yourSurvey" target="_blank" class="projeto">
-          <img src="img/galinheiro.png" alt="Pesquisa" class="galinheiro-img">   
-      </a>
-
-      <!-- Toca do Ouriço -->
-      <a href="http://mdemoser.github.io/calcula-data" target="_blank" class="projeto">
-          <img src="img/pescador-removebg-preview.png" alt="Calcula-data" class="pescador-img">   
-      </a>
-
-   </div>
-</div>
 </body>
 </html>
