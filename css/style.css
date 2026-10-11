@@ -1,7 +1,7 @@
 /* Importando a fonte arredondada estilo balão */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
 
-/* 1. O body agora cuida APENAS do céu estrelado cobrindo toda a página na cor natural */
+/* 1. O body agora cuida APENAS do céu estrelado cobrindo toda a página na cor natural 
 body {
   /* 
     1. Céu estrelado cobrindo tudo no fundo (fixo)
@@ -46,7 +46,7 @@ body {
   
   z-index: 1;
   pointer-events: none; /* Para poder clicar nos links normalmente */
-}
+
 
 /* Garante que o conteúdo (título, varal, projetos) fique na frente */
 .container-arco {
