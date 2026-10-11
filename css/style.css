@@ -139,5 +139,10 @@ text {
   max-width: 220px;
   height: auto;
   display: block;
-  margin-left: 68px;
+  
+}
+
+.ourico-img,
+.casa-img {
+  margin: 0 40px;
 }
